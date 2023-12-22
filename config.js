@@ -11,26 +11,26 @@ DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 let HANDLER = "false";
 
 module.exports = {
-  ANTILINK: toBool(process.env.ANTI_LINK) || false,
+  ANTILINK: toBool(process.env.ANTI_LINK) || true,
   
   LOGS: toBool(process.env.LOGS) || true,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
   
-  AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'false',
+  AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'true',
   
-  SESSION_ID: process.env.SESSION_ID || "", //Enter Your Session Id Here
+  SESSION_ID: process.env.SESSION_ID || "Phoenix~fhe3Eev43", //Enter Your Session Id Here
   
   SUDO: process.env.SUDO || "919074692450",
   
   LANG: process.env.LANG || "EN",
   
-  HANDLERS: process.env.HANDLER === "false" || '^[.]',
+  HANDLERS: process.env.HANDLER === "true" || '^[.]',
   
   RMBG_KEY: process.env.RMBG_KEY || false,
   
   BRANCH: "main",
   
-  STICKER_DATA: "🎯𝙿𝚑𝚘𝚎𝚗𝚒𝚡-𝙼𝙳;𝙰𝚋𝚑𝚒𝚜𝚑𝚎𝚔 𝚂𝚞𝚛𝚎𝚜𝚑☘️",
+  STICKER_DATA: "CR7 THE GOAT ",
   
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome To @gname Total Members: @count",
   
@@ -38,17 +38,17 @@ module.exports = {
   
   DATABASE_URL: DATABASE_URL,
   
-  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
+  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "phoenixmd5",
   
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "48440c2a-6ec6-49a8-848a-1849ff726c5e", ,
   
-  OWNER_NAME: process.env.OWNER_NAME || "Abhishek Suresh",
+  OWNER_NAME: process.env.OWNER_NAME || "CR7 THE GOAT ",
   
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "919074692450",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "27727688465 ",
   
   BOT_NAME: process.env.BOT_NAME || "Phoenix-MD",
   
-  WORK_TYPE: process.env.WORK_TYPE || "public",
+  WORK_TYPE: process.env.WORK_TYPE || "true",
   //---------------------------------------------
   //Database
   DATABASE:
